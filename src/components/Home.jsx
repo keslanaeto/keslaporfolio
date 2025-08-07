@@ -11,8 +11,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-
-   <div className="hero">
+ 
+   <div className="hero" id='home'>
        <img src={KeslaImg} alt="Kesla" className="profile-img"/>
         <h1>HI, I AM KESLA CHIME</h1>
         <p>WEBSITE DEVELOPER, DATA ENTRY SPECIALIST / AWS CLOUD ENTHUSIAST</p>

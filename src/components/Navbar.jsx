@@ -1,6 +1,6 @@
-
 import React, { useState } from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar({ toggleTheme, theme }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,16 +25,26 @@ function Navbar({ toggleTheme, theme }) {
       </div>
 
       <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-        <li><a href="#home" onClick={closeMenu}>Home</a></li>
-        <li><a href="#about" onClick={closeMenu}>About</a></li>
-        <li><a href="#skills" onClick={closeMenu}>Skills</a></li>
-        <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
-        <li><a href="#cloud" onClick={closeMenu}>AWS Cloud</a></li>
-        <li><a href="#youtube" onClick={closeMenu}>YouTube</a></li>
-        <li><a href="#cert" onClick={closeMenu}>Certificate</a></li>
+        <li><Link to="/#home" onClick={closeMenu}>Home</Link></li>
+        <li><Link to="/#about" onClick={closeMenu}>About</Link></li>
+        <li><Link to="/#skills" onClick={closeMenu}>Skills</Link></li>
+        <li><Link to="/#experience" onClick={closeMenu}>Experience</Link></li>
+        <li><Link to="/#projects" onClick={closeMenu}>Projects</Link></li>
+       
+        
+        <li className="dropdown">
+  <Link to="/cloud" className="dropdown-toggle" onClick={closeMenu}>AWS Cloud</Link>
+  <ul className="dropdown-menu">
+  <li><Link to="/youtube" onClick={closeMenu}>YouTube</Link></li>
+  </ul>
+</li>
+
+<li><Link to="/certificate" onClick={closeMenu}>Certificate</Link></li>
+
+
         <li>
           <button onClick={toggleTheme} className="theme-toggle">
-            {theme === 'dark' ? '🌙 ' : '☀️'}
+            {theme === 'dark' ? '🌙' : '☀️'}
           </button>
         </li>
       </ul>
@@ -43,5 +53,6 @@ function Navbar({ toggleTheme, theme }) {
 }
 
 export default Navbar;
+
 
 
