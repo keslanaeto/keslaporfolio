@@ -1,0 +1,123 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: #74499f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0; 
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: currentColor;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Nav Links (Desktop) */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  padding: 0.7rem 1rem;
+  display: block;
+  border-radius: 4px;
+}
+
+.nav-links li a:hover {
+  background-color: #8973ad;
+  color: white;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: 2px solid currentColor;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 6px 12px;
+  margin-left: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+  .navbar-header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem;
+    
+  }
+  .menu-toggle {
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 80vw;
+    max-width: 300px;
+    flex-direction: column;
+    text-align: left;
+    overflow: hidden;
+    background-color: #74499f;
+    height: 0;
+    transition: height 0.3s ease-in-out;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: -4px 0 12px #74499f;
+    z-index: 9999;
+    padding: 0;
+  }
+
+  .nav-links.active {
+    overflow-y: auto;
+    height: auto; /* this is key */
+    padding: 1rem;
+  
+  } 
+
+  .nav-links li:last-child {
+    margin-bottom: 20px;
+  }
+}
