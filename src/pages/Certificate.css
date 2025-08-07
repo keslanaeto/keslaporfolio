@@ -1,0 +1,38 @@
+.certificate-page {
+    padding: 2rem;
+    min-height: 100vh;
+  
+  }
+
+  h2{
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .certificate-card {
+    border: 1px solid #b278d8;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #190e2e;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .view-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #b278d8;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #6c5583;
+  }
+  
