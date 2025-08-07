@@ -1,31 +1,43 @@
-// Projects.jsx
 import React from 'react';
 import './Projects.css';
 
 const projects = [
   {
-    title: 'Budget Tracker',
-    description: 'A web-based app to track income, expenses, and generate financial reports.',
-    demoLink: 'https://your-budget-tracker-demo.vercel.app',
-    codeLink: 'https://github.com/yourusername/budget-tracker',
+    title: 'Fashion Website',
+    description: 'A clean and elegant fashion website featuring curated collections and a responsive layout, built with React.',
+    demoLink: 'https://ellatrends.vercel.app/',
+    codeLink: 'https://github.com/keslanaeto/trends',
+    skills: ["React.js", "Express.js", "MongoDB", "Node.js"],
   },
+
+  // {
+  //   title: 'Budget Tracker',
+  //   description: 'A web-based app to track income, expenses, and generate financial reports.',
+  //   demoLink: 'https://your-budget-tracker-demo.vercel.app',
+  //   codeLink: 'https://github.com/yourusername/budget-tracker',
+  // },
+
   {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio to showcase my skills and projects.',
-    demoLink: 'https://your-portfolio-site.vercel.app',
-    codeLink: 'https://github.com/yourusername/portfolio',
+    title: 'Brown furnitures',
+    description: 'A modern furniture website showcasing elegant brown-themed furniture collections. Built with React for a smooth, responsive user experience.',
+    demoLink: 'https://brown-furnitures.vercel.app/',
+    codeLink: 'https://github.com/keslanaeto/Brown-furnitures',
+    skills: ["HTML", " CSS",  "Javasccript"]
+
   },
+
+  // {
+  //   title: 'Contact Form Backend',
+  //   description: 'Node.js backend with MongoDB and Nodemailer for handling contact form submissions.',
+  //   demoLink: '',
+  //   codeLink: 'https://github.com/yourusername/contact-form-api',
+  // },
   {
-    title: 'Contact Form Backend',
-    description: 'Node.js backend with MongoDB and Nodemailer for handling contact form submissions.',
-    demoLink: '',
-    codeLink: 'https://github.com/yourusername/contact-form-api',
-  },
-  {
-    title: 'Weather App',
-    description: 'A simple app that fetches real-time weather data based on user location.',
-    demoLink: 'https://weather-demo-app.vercel.app',
-    codeLink: 'https://github.com/yourusername/weather-app',
+    title: ' Foodolis ',
+    description: 'A visually engaging food ordering website built with React and styled using Tailwind CSS. It features.',
+    demoLink: 'https://foodolis.vercel.app/',
+    codeLink: 'https://github.com/keslanaeto/myfoods',
+    skills: ["HTML", "TailwindCss", "React.JS"],
   },
 ];
 
