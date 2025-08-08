@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
             <div className='resume'>
-              <a href="https://drive.google.com/file/d/12Dm11iKpkgsLLnLqLmso25o5cZ5uJt-e/view?usp=drivesdk">GET C.V</a>
+              <a href="https://drive.google.com/file/d/1xFgLSH0r1tHgGV20bFt0Dzm_SxD1Xh2o/view?usp=sharing">GET C.V</a>
 
            </div>
       </div>
