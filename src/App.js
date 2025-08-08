@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-
 // import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import './App.css';
@@ -24,7 +23,6 @@ const ScrollToHash = () => {
       if (hash) {
         const element = document.querySelector(hash);
         if (element) {
-          // Delay to ensure the section is rendered
           setTimeout(() => {
             element.scrollIntoView({ behavior: 'smooth' });
           }, 100);

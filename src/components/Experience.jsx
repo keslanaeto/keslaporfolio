@@ -1,4 +1,3 @@
-// Experience.jsx
 import React from 'react';
 import './Experience.css';
 
@@ -28,9 +27,6 @@ const experiences = [
        "Uploaded product data in CSV format through the company's website backend, ensuring formatting and data integrity",
        "Collaborated with web team to verify that product uploads and pricing updates were reflected on the live site",
        "Performed regular data validation and cleanup to maintain consistency and avoid duplicates",
-
-
-
 
     ]
   },

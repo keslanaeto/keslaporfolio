@@ -1,14 +1,10 @@
-/* App.css */
-  
-/* LIGHT MODE */
+/* Light Mood */
 body.light {
     background-color: #fff;
     color: #000;
-    
-    
   }
   
-  /* DARK MODE */
+  /* Dark Mood */
   body.dark {
     background-color: rgb(14, 3, 14);
     color: #ffffff;

@@ -19,7 +19,6 @@ const Youtube = () => {
 
         <div className="video-item">
           <iframe
-            // src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your actual video link
             title="Video 1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -28,7 +27,7 @@ const Youtube = () => {
           <p>my next video will be here.</p>
         </div>
 
-        {/* Add more video items as you upload content */}
+        {/* More video content will be added soon */}
       </div>
     </div>
   );

@@ -19,14 +19,12 @@
   
 }
 
-/* Logo Styling */
 .logo {
   font-size: 25px;
   font-family: "Dancing Script", cursive;
   font-weight: bold;
 }
 
-/* Hamburger Menu */
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -41,7 +39,6 @@
   transition: all 0.3s ease;
 }
 
-/* Nav Links (Desktop) */
 .nav-links {
   display: flex;
   list-style: none;
@@ -78,12 +75,10 @@
   color: inherit;
 }
 
-/* Dropdown Parent */
 .dropdown {
   position: relative;
 }
 
-/* Dropdown Toggle Text */
 .dropdown-toggle {
   cursor: pointer;
   font-size: 20px;
@@ -98,7 +93,6 @@
   color: white;
 }
 
-/* Dropdown Menu */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -126,13 +120,10 @@
   background-color: #8973ad;
 }
 
-/* Show on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-
-/* Mobile Styles */
 @media (max-width: 768px) {
 
   .navbar-header {
@@ -168,7 +159,7 @@
 
   .nav-links.active {
     overflow-y: auto;
-    height: auto; /* this is key */
+    height: auto; 
     padding: 1rem;
   
   } 

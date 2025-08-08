@@ -9,7 +9,7 @@ const CloudJourney = () => {
     I'm currently learning AWS Cloud Computing and documenting my journey. I work on projects, complete certifications, and share lessons along the way.
   </p>
 
-  {/* YouTube Sub-section */}
+
   <div className="youtube-subsection">
     <h3 className="subsection-title">Follow My Journey on YouTube</h3>
     <p className="youtube-description">

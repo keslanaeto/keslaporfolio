@@ -17,8 +17,8 @@ const Awscloud = () => {
       <section className="cloud-section">
         <h3>Where Am I Learning</h3>
         <ul>
-          <li><strong>ALX AWS CloudComputing Track</strong> – hands-on weekly learning with projects and peer reviews</li>
-          <li><strong>Udemy AWS Bootcamp</strong> – structured lessons on EC2, S3, IAM, Lambda, VPC, and more</li>
+          <li><strong>ALX AWS CloudComputing Track</strong> hands-on weekly learning with projects and peer reviews</li>
+          <li><strong>Udemy AWS Bootcamp</strong> structured lessons on EC2, S3, IAM, Lambda, VPC, and more</li>
         </ul>
       </section>
 
